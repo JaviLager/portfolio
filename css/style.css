@@ -1255,7 +1255,7 @@ body {
   background: #5c5c5c;
 }
 .skill__progress_item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .skill__progress_item h6 {
   display: inline-block;
