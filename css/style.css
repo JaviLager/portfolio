@@ -6,7 +6,7 @@ VERSION:	1.0.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&display=swap");
 body {
-  background: #ffffff;
+  background: #fff;
 }
 
 .section {
@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  background: #ffffff;
+  background: #fff;
   z-index: 2000;
   text-align: center;
   height: 100vh;
@@ -87,7 +87,7 @@ body {
 }
 @media (max-width: 991px) {
   .navbar {
-    background: #ffffff;
+    background: #fff;
   }
 }
 @media (max-width: 991px) {
@@ -128,7 +128,7 @@ body {
 .navbar .hire_button {
   background: #5c5c5c;
   padding: 15px 30px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   border-radius: 7px;
   font-size: 16px;
@@ -149,7 +149,7 @@ body {
   }
 }
 .navbar.nav__color__change {
-  background: #ffffff;
+  background: #fff;
   padding: 20px 0;
   box-shadow: 0px 10px 20px 0px rgba(199, 141, 127, 0.3);
 }
@@ -285,13 +285,13 @@ body {
   margin: 0 0 30px 0;
   font-size: 60px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 70px;
 }
 .hero_content p {
   margin: 0 0 50px 0;
   font-family: "Poppins", sans-serif;
-  color: #282F49;
+  color: #5c5c5c;
   font-size: 20px;
   line-height: 30px;
 }
@@ -302,7 +302,7 @@ body {
   font-size: 16px;
   background: #5c5c5c;
   border-radius: 7px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   border: 1px solid transparent;
   transition: all 0.3s ease;
@@ -310,7 +310,7 @@ body {
 }
 .hero_content a:hover {
   background: #c98936;
-  box-shadow: 0 8px 20px rgba(56, 87, 241, 0.3);
+  box-shadow: 0 8px 20px rgba(199, 141, 127, 0.3);
   transform: scale(1.03);
 }
 .hero_figure {
@@ -394,7 +394,7 @@ body {
   transform: translate(-50%, -50%);
   height: 60px;
   width: 60px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 50%;
   z-index: 2;
   transition: all 0.3s ease;
@@ -410,7 +410,7 @@ body {
   background-color: #5c5c5c;
 }
 .hero_figure-popup .popup-button:hover svg path {
-  fill: #ffffff;
+  fill: #fff;
 }
 .hero_figure-popup:hover .popup-button {
   transform: translate(-50%, -50%) scale(1.1);
@@ -467,14 +467,14 @@ body {
   margin: 0 0 20px 0;
   font-size: 55px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 1;
 }
 .about_header p {
   margin: 0;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: #7E7E8A;
+  color: #5c5c5c;
   line-height: 30px;
 }
 .about_content {
@@ -525,7 +525,7 @@ body {
 .about_content-inner {
   width: 55%;
   padding: 60px 50px;
-  background: #1B2031;
+  background: #3a3a3a;
   border-radius: 20px;
   margin-left: -60px;
   position: relative;
@@ -597,7 +597,7 @@ body {
   color: #fff;
   border-radius: 7px;
   transition: all 0.3s ease;
-  border: 1px solid #60636F;
+  border: 1px solid rgba(199, 141, 127, 0.3);
   background: transparent;
 }
 .about_content-inner ul li a.active {
@@ -607,7 +607,7 @@ body {
 .about_content-inner ul li a:hover {
   border: 1px solid #c98936;
   background: #c98936;
-  box-shadow: 0 8px 20px rgba(56, 87, 241, 0.3);
+  box-shadow: 0 8px 20px rgba(199, 141, 127, 0.3);
   transform: scale(1.03);
 }
 .about_content-inner ul li:not(:last-child) {
@@ -687,7 +687,7 @@ body {
   margin: 0 0 30px 0;
   font-size: 50px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 50px;
 }
 @media (max-width: 767px) {
@@ -698,7 +698,7 @@ body {
 .service__header p {
   margin: 0 0 0 0;
   font-family: "Poppins", sans-serif;
-  color: #282F49;
+  color: #5c5c5c;
   font-size: 18px;
   line-height: 26px;
 }
@@ -812,7 +812,7 @@ body {
   margin: 0 0 20px 0;
   font-size: 55px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 1;
 }
 @media (max-width: 767px) {
@@ -971,7 +971,7 @@ body {
   }
 }
 .resume__background {
-  background: #1B2031;
+  background: #5c5c5c;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1013,7 +1013,7 @@ body {
   margin: 0 0 30px 0;
   font-size: 55px;
   font-family: "Yeseva One", cursive;
-  color: #fff;
+  color: #c98936;
   line-height: 50px;
 }
 .resume__heading p {
@@ -1038,8 +1038,8 @@ body {
   padding: 15px 40px;
   text-decoration: none;
   display: block;
-  background: #fff;
-  color: #282F49;
+  background: #8b8b8b;
+  color: #3a3a3a;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -1052,12 +1052,12 @@ body {
 .resume__heading ul li a:hover {
   background: #c98936;
   color: #fff;
-  box-shadow: 0 8px 20px 0 rgba(56, 87, 241, 0.3);
+  box-shadow: 0 8px 20px 0 rgba(199, 141, 127, 0.3);
 }
 .resume__heading ul li a.active {
-  background: #5c5c5c;
+  background: #c98936;
   color: #fff;
-  box-shadow: 0 8px 20px 0 rgba(56, 87, 241, 0.3);
+  box-shadow: 0 8px 20px 0 rgba(199, 141, 127, 0.3);
 }
 .resume__heading ul li a.active:hover {
   background: #c98936;
@@ -1100,14 +1100,14 @@ body {
 .resume__education_item h4 {
   font-size: 25px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   margin: 0 0 30px 0;
   line-height: 1;
 }
 .resume__education_item p {
   line-height: 34px;
   font-family: "Poppins", sans-serif;
-  color: #7E7E8A;
+  color: #5c5c5c;
   font-size: 16px;
   margin: 0;
 }
@@ -1228,13 +1228,13 @@ body {
   margin: 0 0 30px 0;
   font-size: 50px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 50px;
 }
 .skill__progress_heading p {
   margin: 0 0 0 0;
   font-family: "Poppins", sans-serif;
-  color: #282F49;
+  color: #5c5c5c;
   font-size: 18px;
   line-height: 26px;
 }
@@ -1542,7 +1542,7 @@ body {
   transition: all 0.3s ease;
 }
 .blog__item-content {
-  background: #ffffff;
+  background: #fff;
   position: absolute;
   bottom: -100px;
   left: 40px;
@@ -1665,7 +1665,7 @@ body {
           animation: moveLeft 5s infinite linear;
 }
 .contact__cta .shape-1 svg path {
-  fill: #ffffff;
+  fill: #fff;
   opacity: 0.07;
 }
 .contact__cta .shape-2 {
@@ -1684,7 +1684,7 @@ body {
   width: 100%;
 }
 .contact__cta .shape-2 svg path {
-  fill: #ffffff;
+  fill: #fff;
   opacity: 0.07;
 }
 @media (max-width: 991px) {
@@ -1940,7 +1940,7 @@ body {
   border-radius: 20px;
 }
 .blog__item-content {
-  background: #ffffff;
+  background: #fff;
   position: absolute;
   bottom: -100px;
   left: 40px;
@@ -2321,7 +2321,7 @@ body {
 }
 .classicBlog__item-content {
   margin-right: 18px;
-  background: #ffffff;
+  background: #fff;
   position: absolute;
   bottom: -100px;
   left: 40px;
@@ -2692,6 +2692,7 @@ body {
 .contact-form #map {
   border-radius: 30px;
   height: 100%;
+  width:100%;
 }
 @media (max-width: 991px) {
   .contact-form #map {
