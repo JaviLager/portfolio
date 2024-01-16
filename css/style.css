@@ -6,7 +6,7 @@ VERSION:	1.0.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&display=swap");
 body {
-  background: #fff;
+  background: #ffffff;
 }
 
 .section {
@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  background: #fff;
+  background: #ffffff;
   z-index: 2000;
   text-align: center;
   height: 100vh;
@@ -87,7 +87,7 @@ body {
 }
 @media (max-width: 991px) {
   .navbar {
-    background: #fff;
+    background: #ffffff;
   }
 }
 @media (max-width: 991px) {
@@ -128,7 +128,7 @@ body {
 .navbar .hire_button {
   background: #5c5c5c;
   padding: 15px 30px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 7px;
   font-size: 16px;
@@ -140,7 +140,7 @@ body {
 }
 .navbar .hire_button:hover {
   background: #c98936;
-  box-shadow: 0 8px 20px rgba(56, 87, 241, 0.3);
+  box-shadow: 0 8px 20px rgba(199, 141, 127, 0.3);
   transform: scale(1.03);
 }
 @media (max-width: 991px) {
@@ -149,9 +149,9 @@ body {
   }
 }
 .navbar.nav__color__change {
-  background: #fff;
+  background: #ffffff;
   padding: 20px 0;
-  box-shadow: 0px 10px 20px 0px rgba(50, 65, 141, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(199, 141, 127, 0.3);
 }
 @media (max-width: 991px) {
   .navbar.nav__color__change {
@@ -261,7 +261,7 @@ body {
 .hero_content span {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
-  color: #282F49;
+  color: #5c5c5c;
   position: relative;
   display: block;
   margin: 0 0 20px 30px;
