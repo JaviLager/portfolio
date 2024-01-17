@@ -798,7 +798,7 @@ body {
 }
 
 .portfolio {
-  padding: 100px 0 135px 0;
+  padding: 100px 0 50px 0;
 }
 @media (max-width: 991px) {
   .portfolio {
@@ -972,7 +972,6 @@ body {
 
 .resume {
   position: relative;
-  margin-bottom: 100px;
   padding: 150px 0;
 }
 @media (max-width: 991px) {
@@ -1125,7 +1124,7 @@ body {
 
 .skill {
   position: relative;
-  padding: 100px 0 150px 0;
+  padding: 100px 0 50px 0;
 }
 @media (max-width: 991px) {
   .skill {
@@ -1295,7 +1294,7 @@ body {
 .testimonial {
   background: #f2d4ae;
   position: relative;
-  padding: 170px 0 150px 0;
+  padding: 50px 0 50px 0;
 }
 @media (max-width: 991px) {
   .testimonial {
