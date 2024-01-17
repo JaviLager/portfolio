@@ -10,7 +10,7 @@ body {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .preloader-wrap {
@@ -198,7 +198,7 @@ body {
 }
 
 .hero {
-  padding: 200px 0;
+  padding: 120px 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -351,7 +351,7 @@ body {
 }
 .hero_figure-popup {
   position: absolute;
-  bottom: 80px;
+  bottom: -100px;
   left: 0;
   transform: translateX(-50%);
   transition: all 0.3s ease;
@@ -364,8 +364,8 @@ body {
   }
 }
 .hero_figure-popup .thumb {
-  height: 160px;
-  width: 250px;
+  height: 192px;
+  width: 300px;
   border: 1px solid #707070;
   border-radius: 20px;
   overflow: hidden;
@@ -389,7 +389,7 @@ body {
 }
 .hero_figure-popup .popup-button {
   position: absolute;
-  top: 50%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 60px;
@@ -414,6 +414,17 @@ body {
 }
 .hero_figure-popup:hover .popup-button {
   transform: translate(-50%, -50%) scale(1.1);
+}
+
+.hero_figure-popup .demoreel {
+  text-align: center;
+}
+
+.hero_figure-popup .demoreel h4 {
+  font-size: 30px;
+  font-family: "Yeseva One", cursive;
+  color: #3a3a3a;
+  margin: 5px 0 0 0;
 }
 
 @-webkit-keyframes move_left {
@@ -622,7 +633,7 @@ body {
 .service {
   position: relative;
   overflow: hidden;
-  padding-bottom: 275px;
+  padding-bottom: 50px;
 }
 .service__background {
   position: absolute;
@@ -696,7 +707,7 @@ body {
   }
 }
 .service__header p {
-  margin: 0 0 0 0;
+  margin: 0 -100px 0 0;
   font-family: "Poppins", sans-serif;
   color: #5c5c5c;
   font-size: 18px;
