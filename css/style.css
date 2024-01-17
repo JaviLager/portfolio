@@ -705,7 +705,7 @@ body {
 .service__slider_item {
   margin: 15px;
   padding: 30px;
-  box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
+  box-shadow: 0px 20px 40px 0px rgba(141, 106, 50, 0.12);
   border-radius: 20px;
   background: #fff;
 }
@@ -728,12 +728,12 @@ body {
 .service__slider_item h4 {
   font-size: 24px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   margin: 40px 0 30px 0;
 }
 .service__slider_item p {
   font-family: "Poppins", sans-serif;
-  color: #7E7E8A;
+  color: #5c5c5c;
   font-size: 16px;
   line-height: 30px;
   margin: 0;
@@ -835,7 +835,7 @@ body {
 }
 .portfolio__element .portfolio__element_left .portfolio__element_left-item-content span, .portfolio__element .portfolio__element_left .portfolio__element_right-item-content span, .portfolio__element .portfolio__element_right .portfolio__element_left-item-content span, .portfolio__element .portfolio__element_right .portfolio__element_right-item-content span {
   font-family: "Poppins", sans-serif;
-  color: #7E7E8A;
+  color: #5c5c5c;
   font-size: 18px;
   line-height: 1;
   display: block;
@@ -846,7 +846,7 @@ body {
 }
 .portfolio__element .portfolio__element_left .portfolio__element_left-item-content h3 a, .portfolio__element .portfolio__element_left .portfolio__element_right-item-content h3 a, .portfolio__element .portfolio__element_right .portfolio__element_left-item-content h3 a, .portfolio__element .portfolio__element_right .portfolio__element_right-item-content h3 a {
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   font-size: 25px;
   line-height: 40px;
   transition: all 0.3s ease;
@@ -854,7 +854,7 @@ body {
 }
 .portfolio__element .portfolio__element_left .portfolio__element_left-item-content h3 a:hover, .portfolio__element .portfolio__element_left .portfolio__element_right-item-content h3 a:hover, .portfolio__element .portfolio__element_right .portfolio__element_left-item-content h3 a:hover, .portfolio__element .portfolio__element_right .portfolio__element_right-item-content h3 a:hover {
   text-decoration: none;
-  color: #5c5c5c;
+  color: #c98936;
 }
 .portfolio__element .portfolio__element_left .portfolio__element_left-item-content .see-more-btn, .portfolio__element .portfolio__element_left .portfolio__element_right-item-content .see-more-btn, .portfolio__element .portfolio__element_right .portfolio__element_left-item-content .see-more-btn, .portfolio__element .portfolio__element_right .portfolio__element_right-item-content .see-more-btn {
   text-decoration: none;
@@ -1282,7 +1282,7 @@ body {
   }
 }
 .testimonial {
-  background: #F1F6F9;
+  background: #f2d4ae;
   position: relative;
   padding: 170px 0 150px 0;
 }
@@ -1322,7 +1322,7 @@ body {
   margin: 0;
   font-size: 55px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 1;
 }
 @media (max-width: 767px) {
@@ -1358,19 +1358,19 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   line-height: 35px;
-  color: #282F49;
+  color: #5c5c5c;
 }
 .testimonial__slider_item-author {
   margin: 0 0 0 35px;
   font-family: "Poppins", sans-serif;
-  color: #7E7E8A;
+  color: #3a3a3a;
   font-size: 16px;
   line-height: 1;
   position: relative;
 }
 .testimonial__slider_item-author span {
   font-weight: bold;
-  color: #282F49;
+  color: #3a3a3a;
 }
 .testimonial__slider_item-author:before {
   position: absolute;
@@ -1621,7 +1621,7 @@ body {
   }
 }
 .contact {
-  background: #1B2031;
+  background: #5C5C5C;
   position: relative;
   margin-top: 150px;
 }
@@ -1644,7 +1644,7 @@ body {
   }
 }
 .contact__cta {
-  background: #5c5c5c;
+  background: #3a3a3a;
   padding: 100px 80px;
   border-radius: 20px;
   display: flex;
@@ -1765,7 +1765,7 @@ body {
   }
 }
 .contact__cta_action a:hover {
-  background: #768bf3;
+  background: #c98936;
   color: #fff;
 }
 .contact__widget {
@@ -1810,7 +1810,7 @@ body {
   font-size: 16px;
 }
 .contact__widget_sitemap ul li a:hover {
-  color: #5c5c5c;
+  color: #c98936;
 }
 .contact__widget_sitemap ul li:not(:last-child) {
   margin-bottom: 10px;
@@ -1846,7 +1846,7 @@ body {
   margin-right: 15px;
 }
 .contact__widget_address ul li a:hover {
-  color: #5c5c5c;
+  color: #c98936;
 }
 .contact__widget_address ul li:not(:last-child) {
   margin-bottom: 10px;
@@ -2226,7 +2226,7 @@ body {
 .breadCrumb__title {
   font-size: 48px;
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   line-height: 1;
   margin: 0 0 30px 0;
 }
@@ -2572,13 +2572,13 @@ body {
   margin: 0 0 30px 0;
   font-family: "Yeseva One", cursive;
   font-size: 25px;
-  color: #282F49;
+  color: #3a3a3a;
 }
 .contact__info_item p {
   margin: 0;
   font-size: 16px;
   line-height: 34px;
-  color: #7E7E8A;
+  color: #5c5c5c;
   font-family: "Poppins", sans-serif;
 }
 
@@ -2587,7 +2587,7 @@ body {
 }
 .contact-form-title h4 {
   font-family: "Yeseva One", cursive;
-  color: #282F49;
+  color: #3a3a3a;
   margin: 0 0 30px 0;
   font-size: 35px;
 }
